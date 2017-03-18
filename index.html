@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div id="app-3">
+      <div v-if="loginType === 'username'">
+        <label>Username</label>
+        <input placeholder="Enter your username" key="username-input">
+      </div>
+      <div v-else>
+        <label>Email</label>
+        <input placeholder="Enter your email address" key="email-input">
+      </div>
+    </div>
+    
+    
+    <script src="src/js/vendor/vue.min.js"></script>
+    <script src="src/vue-trigger.js"></script>
+  </body>
+</html>
